@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139029908-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-139029908-1');
+		</script> 
+		
+		<meta charset="UTF-8">
+		<meta name="Portfolio" content="Artwork">
+        <title>Chris Kyser</title>
+		
+		<script type="text/javascript" src="Javascript/lib/jquery-3.3.1.min.js" id = "jQuery"></script>
+		<script type="text/javascript" src="Javascript/lib/three.js" id = "Three"></script>
+		
+		<LINK type="text/css" href="CSS/canvas.css" rel="stylesheet" >
+		<LINK type="text/css" href="CSS/overlay.css" rel="stylesheet" >
+		<LINK type="text/css" href="CSS/footer.css" rel="stylesheet" >
+		<LINK type="text/css" href="CSS/header.css" rel="stylesheet" >
+		
+		<script type="text/javascript" src="Javascript/nat/gallery.js" id = "Gallery"></script>
+		<script type="text/javascript" src="Javascript/nat/overlay.js" id = "Overlay"></script>
+		<script type="text/javascript" src="Javascript/nat/object.js" id = "Object"></script>
+		<script type="text/javascript" src="Javascript/nat/viewer.js" id = "Viewer"></script>
+		
+</head>
+	
+<body>
+<script>
+
+
+console.log($.ajax({
+  type:"GET",
+  headers: {
+  "Access-Control-Allow-Origin": "*",
+  "Authorization": "Basic uv9jv1tk-vm55-iakl:73u9-j4ltoscs2b73"
+  },
+  url: "https://api.printful.com/sync/products",
+  dataType: "json",
+  async: false
+
+  //headers: { Authorization: Basic uv9jv1tk-vm55-iakl:73u9-j4ltoscs2b73},
+}));
+
+
+//$.get( "https://api.printful.com/", function( data ) {
+ // $( ".result" ).html( data );
+ // alert( "Load was performed." );
+//});
+
+</script>
+		
+	<div >
+		<table id='overlay' >
+			<tr>
+				<td >
+				<div id='options'><table>
+					<tr>
+						<td rowspan='2'>
+							
+
+							<select id="drop">
+								<option  hidden disabled selected>Sort By</option>
+								<option value="date">Year</option>
+								<option value="name">Name</option>
+								<option value="medium">Medium</option>
+							</select>
+						</td>
+	
+					</tr>
+					
+			</table></div>
+				</td>
+				<td>
+					<div id = 'toolbar'><table>
+						<tr>
+							<td id='button'>
+							<image id='exit' src = "Assets/Exit.png" ></div>
+							</td>
+
+						</tr>
+					
+					</table></div>
+				</td>
+			</tr>
+		
+			<tr>
+			<td>
+
+			</td>
+			<td>
+				<div id='info'><table>
+					<tr>
+						<td >
+							<div id='name'><p id='name'>text</p></div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div id='medium'><p id='medium'>text</p></div>
+						</td>
+					</tr>
+					<tr >
+						<td>
+							<div id='description'><p id='desc'>text</p></div>
+						</td>
+					</tr>
+				</table></div>
+			</td></tr>
+	
+		</table>
+	</div>
+	<script type="text/javascript" id ="sketch" src='Javascript/nat/canvas.js'></script>
+	
+	
+	<div id='header'></div>
+	<div id='footer'></div>
+
+	<script type="text/javascript">
+			$(document).ready(function(e) {
+			//$('#header').load('Pages/Header.html',function(){});
+			$('#footer').load('Pages/Footer.html',function(){});
+			});
+	</script>
+	
+	
+</body>
+</html>
