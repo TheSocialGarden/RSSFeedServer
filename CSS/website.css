@@ -1,0 +1,119 @@
+
+
+#overlay{
+	pointer-events:none;
+	text-decoration:none;
+	font-size:25px;
+	color:#ffefd3;
+	z-index: 265;
+	position: absolute;
+	width:100%;
+}
+#overlay table{
+	padding-top:40px;
+	padding-left:10px;
+	padding-right:10px;
+	width:100%;
+
+}
+
+#info{
+
+	border-collapse: collapse;
+	padding-right:10%;
+	padding-left:60%;
+
+	width:400px;
+
+}
+#info *{
+	
+	border-collapse: collapse;
+	background:#9C9999;
+	border-radius:5px;
+}
+
+
+#name {
+	background:#9C9666;
+	padding-top:10px;
+	padding-left:20px;
+	height:40px;
+
+
+}
+#medium {
+	font-style: italic;
+	font-size:20px;
+	margin-left:25px;
+	height:20px;
+
+
+}
+#description {
+	display:table-cell;
+	vertical-align:middle;
+	font-size:20px;
+	padding:30px;
+	height:100%;
+
+
+}
+
+
+#button *{
+	
+	vertical-align:middle;
+}
+#button *:hover {
+	background:#9C9666;
+	color:white;
+}
+
+#toolbar {
+	pointer-events :fill;
+	bottom:0px;
+	padding-top: 5%;
+	padding-left:70%;
+	padding-right: 30%;
+	border-collapse: collapse;
+
+}
+#toolbar *{
+	pointer-events :auto;
+	border-collapse: collapse;
+	background:#9C9999;
+	border-radius:5px;
+
+}
+
+#options{
+	pointer-events :fill;
+	border-collapse: collapse;
+	padding-left:10%;
+	width:20%;
+
+
+}
+#options *{
+	padding:5px;
+	border-collapse: collapse;
+	background:#9C9999;
+	border-radius:5px;
+}
+
+#drop {
+	border-collapse: collapse;
+
+	vertical-align:middle;
+	font-size:20px;
+	
+}
+#drop:hover{
+	background:#9C9666;
+	color:white;
+}
+
+
+
+

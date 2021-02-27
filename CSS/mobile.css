@@ -1,0 +1,47 @@
+
+#toolbar {
+	padding-left:35%;
+	padding-right:auto;
+
+}
+#exit {
+	width:100px;
+}
+#drop {
+	
+	font-size:56px;
+	
+}
+#drop option {
+	
+	font-size:20px;
+	
+}
+#info{
+
+	width:600px;
+	padding-left:35%;
+
+}
+
+
+#name {
+	font-size:64px;
+	height:65px;
+
+
+}
+#medium {
+	font-size:30px;
+
+	height:30px;
+
+
+}
+#description {
+	font-size:30px;
+
+	height:40px;
+
+
+}

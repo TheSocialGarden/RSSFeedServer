@@ -1,4 +1,4 @@
-const RSS_URL = `feed`;
+const RSS_URL = `../feed`;
 
 console.log($.ajax(RSS_URL, {
   accepts: {

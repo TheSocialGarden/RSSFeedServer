@@ -1,0 +1,38 @@
+
+
+#header{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	border:none;
+	width: 100%;
+	text-align:center;
+	font-size:25px;
+}
+#header *{
+	border-collapse:collapse;
+	background-color:#ffefd3;
+}
+#header table{
+	height:50px;
+	width:100%;
+	box-shadow:0px 1px 5px black;
+}
+
+#margin{
+	width:30%;
+}
+
+#tab *{
+	width:150px;
+	text-decoration:none;
+	color:black;
+}
+
+#tab a:hover{
+	cursor:pointer;
+	color:#9a8154;
+
+}
+
+
