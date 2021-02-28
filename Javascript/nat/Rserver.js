@@ -15,7 +15,7 @@ console.log($.ajax(RSS_URL, {
 
         const template = `
           <article>
-            <img src="${el.find("image").url()alt="">
+            <img src="${el.find("image").url()} alt="">
             <h2>
               <a href="${el
                 .find("link")
