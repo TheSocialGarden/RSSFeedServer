@@ -5,6 +5,7 @@
 <channel>
    
 	<title>Audigrow RSS</title>
+	<link>https://thesocialgarden.github.io/feed</link>
 	<description>Enjoy Audigrow featured wellness content</description>
 
 
@@ -12,13 +13,22 @@
     <title>RSS Tutorial</title>
     <link>https://www.w3schools.com/xml/xml_rss.asp</link>
     <description>New RSS tutorial on W3Schools</description>
-	<enclosure>https://convertri.imgix.net/67831b5b-5414-11e6-829d-066a9bd5fb79/68f2fc2873f5fa1965375810289d944e72b6b3fd/Tape%20Heads.png?auto=compress,format&fit=scale&w=129&h=161 </enclosure>
+	<image>
+		<url>https://www.w3schools.com/images/logo.gif</url>
+		<title>W3Schools.com</title>
+		<link>https://www.w3schools.com</link>
+	</image>
   </item>
+  
   <item>
     <title>XML Tutorial</title>
     <link>https://www.w3schools.com/xml</link>
     <description>New XML tutorial on W3Schools</description>
-	<enclosure>https://convertri.imgix.net/67831b5b-5414-11e6-829d-066a9bd5fb79/037210c868f4af3f173b482b61b971b58b4b9e11/K%20A%20Y%20I%20N%20B%20E%20A%20T%20S-logo-black%20%282%29.png?auto=compress,format&fit=scale&w=233&h=135</enclosure>
+	<image>
+		<url>https://www.w3schools.com/images/logo.gif</url>
+		<title>W3Schools.com</title>
+		<link>https://www.w3schools.com</link>
+	</image>
   </item>
 </channel>
 
