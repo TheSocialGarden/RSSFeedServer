@@ -23,6 +23,9 @@ console.log($.ajax(RSS_URL, {
                 ${el.find("title").text()}
               </a>
             </h2>
+			<p>
+                ${el.find("description").text()}
+			</p>
           </article>
         `;
 
