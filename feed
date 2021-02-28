@@ -14,7 +14,7 @@
     <link>https://www.w3schools.com/xml/xml_rss.asp</link>
     <description>New RSS tutorial on W3Schools</description>
 	<image>
-		<url>https://convertri.imgix.net/67831b5b-5414-11e6-829d-066a9bd5fb79/416b62167e702334c5b7f995ebbc67388708e0dd/SubMont.png?auto=compress,format&fit=scale&w=186&h=186</url>
+		<url>../carnie.png</url>
 		<title>W3Schools.com</title>
 		<link>https://www.w3schools.com</link>
 	</image>
@@ -25,7 +25,7 @@
     <link>https://www.w3schools.com/xml</link>
     <description>New XML tutorial on W3Schools</description>
 	<image>
-		<url>https://convertri.imgix.net/67831b5b-5414-11e6-829d-066a9bd5fb79/416b62167e702334c5b7f995ebbc67388708e0dd/SubMont.png?auto=compress,format&fit=scale&w=186&h=186</url>
+		<url>../carnie.png</url>
 		<title>W3Schools.com</title>
 		<link>https://www.w3schools.com</link>
 	</image>
