@@ -14,7 +14,7 @@
     <link>https://www.w3schools.com/xml/xml_rss.asp</link>
     <description>New RSS tutorial on W3Schools</description>
 	<image>
-		<url>../carnie.png</url>
+		<url>carnie.png</url>
 		<title>W3Schools.com</title>
 		<link>https://www.w3schools.com</link>
 	</image>
