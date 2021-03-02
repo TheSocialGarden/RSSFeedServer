@@ -19,7 +19,7 @@
 		<title>W3Schools.com</title>
 		<link>https://www.w3schools.com</link>
 	</image>
-	</enclosure url="waddle.mp3" length="" type="audio/mpeg">
+	<enclosure url="waddle.mp3" length="" type="audio/mpeg"></enclosure>
   </item>
   
   <item>
@@ -31,7 +31,7 @@
 		<title>W3Schools.com</title>
 		<link>https://www.w3schools.com</link>
 	</image>
-	</enclosure url="waddle.mp3" length="" type="audio/mpeg">
+	<enclosure url="waddle.mp3" length="" type="audio/mpeg"></enclosure>
   </item>
 </channel>
 
