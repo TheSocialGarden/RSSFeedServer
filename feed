@@ -6,6 +6,7 @@
    
 	<title>Audigrow RSS</title>
 	<link>https://thesocialgarden.github.io/feed</link>
+	<language>en-us</language>
 	<description>Enjoy Audigrow featured wellness content</description>
 
 
@@ -18,6 +19,7 @@
 		<title>W3Schools.com</title>
 		<link>https://www.w3schools.com</link>
 	</image>
+	</enclosure url="waddle.mp3" length="" type="audio/mpeg">
   </item>
   
   <item>
@@ -29,6 +31,7 @@
 		<title>W3Schools.com</title>
 		<link>https://www.w3schools.com</link>
 	</image>
+	</enclosure url="waddle.mp3" length="" type="audio/mpeg">
   </item>
 </channel>
 
